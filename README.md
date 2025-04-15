@@ -7,8 +7,11 @@ Dự án được thiết kế để:
 Note: chỉ hoạt động trong thời gian Free Trial hoặc nếu dự án vẫn tồn tại.
 
 # Chi tiết quá trình 
-### Cấu trúc dự án: 
-![image](https://github.com/user-attachments/assets/f04ed85b-72fc-42e4-9a24-f47bd43ed02d)
+### Cấu trúc chính của dự án: 
+- `src/main/appengine/app.yaml` : Cấu hình App Engine
+- `src/main/java/com/example/demo/DemoApplication.java` : Controller Spring Boot
+- `src/main/java/resources/static/index.html` : Trang HTML Demo dự án
+- `pom.xml` : Cấu hình Maven
 
 
 ### Cài đặt 
