@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào mừng đến với Cloud Party!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+        }
+        h1 {
+            color: #ff4757;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            animation: bounce 1s infinite;
+        }
+        p {
+            color: #2f3542;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .party-btn {
+            padding: 12px 24px;
+            background: #ffa502;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .party-btn:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 100px;
+            margin-bottom: 20px;
+            animation: spin 4s linear infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://img.icons8.com/emoji/96/party-popper.png" alt="Party Popper">
+        <h1>Chào mừng đến với Cloud Party!</h1>
+        <p>Ứng dụng Spring Boot này đang chạy trên Google Cloud. Nhấn nút để tham gia tiệc! 🎉</p>
+        <button class="party-btn" onclick="alert('Wohoo! Tiệc cloud bắt đầu! 🚀')">Tham gia ngay!</button>
+    </div>
+</body>
+</html>
