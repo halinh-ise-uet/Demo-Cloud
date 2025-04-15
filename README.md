@@ -8,19 +8,8 @@ Note: chỉ hoạt động trong thời gian Free Trial hoặc nếu dự án v�
 
 # Chi tiết quá trình 
 ### Cấu trúc dự án: 
-demo/
-├── src/
-│   ├── main/
-│   │   ├── appengine/
-│   │   │   └── app.yaml              # Cấu hình App Engine
-│   │   ├── java/
-│   │   │   └── com/example/demo/
-│   │   │       └── DemoApplication.java  # Controller Spring Boot
-│   │   ├── resources/
-│   │   │   └── static/
-│   │   │       └── index.html        # Trang HTML cá nhân hóa
-├── pom.xml                           # Cấu hình Maven
-└── README.md                         # File này
+![image](https://github.com/user-attachments/assets/f04ed85b-72fc-42e4-9a24-f47bd43ed02d)
+
 
 ### Cài đặt 
 ###### Khởi tạo Google Cloud  
